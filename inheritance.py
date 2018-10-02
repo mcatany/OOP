@@ -27,7 +27,9 @@ class Penguin(Bird):
     def run(Self):
         print("Run faster")
 
-peggy = Penguin()
-peggy.whoIsThis()
-peggy.swim()
-peggy.run()
+# Example of usage
+if __name__ == "__main__":			
+	peggy = Penguin()
+	peggy.whoIsThis()
+	peggy.swim()
+	peggy.run()

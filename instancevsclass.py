@@ -7,5 +7,7 @@ class MyClass:
     def __init__(self, i_var):
         self.i_var = i_var
 
-foo = MyClass(2)
-bar = MyClass(3)
+# Example of usage
+if __name__ == "__main__":			
+	foo = MyClass(2)
+	bar = MyClass(3)

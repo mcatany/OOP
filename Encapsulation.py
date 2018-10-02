@@ -11,15 +11,17 @@ class Computer:
     def setMaxPrice(self, price):
         self.__maxprice = price
 
-c = Computer()
-c.sell()
+# Example of usage
+if __name__ == "__main__":	
+	c = Computer()
+	c.sell()
 
-c.__maxprice = 1000
+	c.__maxprice = 1000
 
-c.sell()
+	c.sell()
 
-c.setMaxPrice(1000)
+	c.setMaxPrice(1000)
 
-c.sell()
+	c.sell()
 
 

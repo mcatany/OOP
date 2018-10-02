@@ -14,4 +14,6 @@ def interate():
 		a.append(i)
 	return a
 
-print(sum(interate))
+	# Example of usage
+if __name__ == "__main__":	
+	print(sum(interate))
